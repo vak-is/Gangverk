@@ -1,6 +1,10 @@
+// styles.scss
+
 @import './globals/normalize.scss';
 @import './globals/fonts.scss';
+@import './globals/variables.scss';
 
 * { 
     font-family: 'Titillium'!important;
+    color: $dark;
 }
