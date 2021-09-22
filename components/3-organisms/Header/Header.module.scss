@@ -1,11 +1,13 @@
 .header {
-    border: solid red 1px;
     display: flex;
+    height: 54px;
+    padding: .5rem 1rem;
+    border: solid red 1px;
 }
 
 .logoContainer {
-    border: solid green 1px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 1rem;
 }
