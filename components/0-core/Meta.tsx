@@ -12,7 +12,7 @@ const Meta = ({ title = 'This is the default title', description = 'this is the 
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta name="description" content={description}/>
-            <link rel="icon" href="/favicon.svg"/>
+            <link rel="icon" href="/logo.svg"/>
             <link rel="preload" href="/fonts/Poppins/Poppins-Light.ttf" as="font" crossOrigin=""/>
             <link rel="preload" href="/fonts/Poppins/Poppins-Regular.ttf" as="font" crossOrigin=""/>
             <link rel="preload" href="/fonts/Poppins/Poppins-Medium.ttf" as="font" crossOrigin=""/>
