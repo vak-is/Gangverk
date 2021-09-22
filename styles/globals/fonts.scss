@@ -2,6 +2,13 @@
 // Titillium FONT
 // ###############
 // ###############
+@font-face {
+    font-family: "Titillium";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('/fonts/Titillium-Web/TitilliumWeb-Extralight.ttf');
+}
 
 @font-face {
     font-family: "Titillium";
@@ -17,14 +24,6 @@
     font-weight: 400;
     font-display: swap;
     src: url('/fonts/Titillium-Web/TitilliumWeb-Regular.ttf');
-}
-
-@font-face {
-    font-family: "Titillium";
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url('/fonts/Titillium-Web/TitilliumWeb-Medium.ttf');
 }
 
 @font-face {
@@ -48,6 +47,6 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url('/fonts/Titillium-Web/TitilliumWeb-ExtraBold.ttf');
+    src: url('/fonts/Titillium-Web/TitilliumWeb-Black.ttf');
 }
 
