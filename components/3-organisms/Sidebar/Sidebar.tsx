@@ -9,7 +9,7 @@ type navigationType = Array<NavigationItem>
 const Sidebar = () => {
 
     const sideBarNavigation: navigationType = [
-        { linkName: 'Home', href: '/', icon: 'EarthquakeIcon'},
+        { linkName: 'Home', href: '/', icon: 'HomeIcon'},
         { linkName: 'Earthquakes', href: '/earthquakes', icon: 'EarthquakeIcon'},
     ]
 
