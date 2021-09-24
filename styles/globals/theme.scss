@@ -1,0 +1,40 @@
+html, body {
+    font-size: 16px;
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+* { 
+    font-family: 'Titillium'!important;
+    color: $dark;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a:not(p *) {
+    text-decoration: none;
+}
+
+p, span, a {
+    letter-spacing: .3;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: $light;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 150px;
+    border: 1px solid transparent;
+    background-clip: content-box;
+    background-color: $accent;
+}
