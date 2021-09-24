@@ -1,15 +1,18 @@
+@import '../../../styles/globals/variables.scss';
+
 .sidebar {
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 288px;
     max-width: 15vw;
     height: 100%;
-    padding: 1rem;
-
-    border: solid red 1px;
+    box-shadow: 0 1px 9px 0px rgba(50, 41, 47, .05);
+    border-right: 1px solid $borderColor;
     
     ul {
         list-style: none;
-        padding-left: 0;
+        margin: 0;
+        padding: 1.5rem 0;
     }
 }
