@@ -4,11 +4,24 @@ import { useRouter } from 'next/router';
 import styles from './NavigationLink.module.scss';
 // Components
 import EarthquakeIcon from '../../1-atoms/SVG/earthquake';
+import HomeIcon from '../../1-atoms/SVG/home';
 
 type NavigationItem = {
     linkName: string,
     href: string,
     icon: string,
+}
+
+// TODO: Add to seperate file or make more dynamic
+const navIcon = (iconName: string) => {
+    switch (iconName) {
+        case 'HomeIcon':
+            return <HomeIcon/>;
+        case 'EarthquakeIcon':
+            return <EarthquakeIcon/>;
+        default:
+            break;
+    }
 }
 
 const NavigationLink = (navItem: NavigationItem) => {
@@ -19,8 +32,7 @@ const NavigationLink = (navItem: NavigationItem) => {
         <li className={styles.navigationLink}>
             <Link href={navItem.href}> 
                 <a className={router.pathname === navItem.href ? styles.active : ""}>
-                    {/* TODO: Write a dynamic SVG component for Feather Icons, connect to 'icon' key */}
-                    <EarthquakeIcon height="20" width="20" />
+                    {navIcon(navItem.icon)}
                     <span>{navItem.linkName}</span>
                 </a>
             </Link>
