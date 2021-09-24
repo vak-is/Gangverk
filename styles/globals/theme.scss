@@ -38,3 +38,29 @@ p, span, a {
     background-clip: content-box;
     background-color: $accent;
 }
+
+// Typography
+h1 {
+    font-size: 2rem;    
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.2;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: .8rem;
+    font-weight: 500;
+}
