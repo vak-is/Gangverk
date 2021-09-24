@@ -14,3 +14,9 @@ $dark: #32292F;
 $light: #F6F8FA;
 $borderColor: #edebe9;
 // Dark bg: #24292E, með #2F363D
+
+// Default Transition
+$transition: all 100ms ease-out;
+
+// Default Box shadow (uses Black coffee color variable)
+$shadow: 0 1px 9px 0px rgba(50, 41, 47, .05);
