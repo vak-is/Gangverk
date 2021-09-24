@@ -5,7 +5,7 @@ type Props = {
     description: string;
 }
 
-const Meta = ({ title = 'This is the default title', description = 'this is the default description' }: Props) => {
+const Meta = ({ title = 'Gangverk | Earthquake Project', description = 'For your consideration' }: Props) => {
     return (
         <Head>
             <title>{title}</title>
