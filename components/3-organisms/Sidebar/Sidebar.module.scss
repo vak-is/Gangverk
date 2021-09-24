@@ -7,7 +7,7 @@
     width: 288px;
     max-width: 15vw;
     height: 100%;
-    box-shadow: 0 1px 9px 0px rgba(50, 41, 47, .05);
+    box-shadow: $shadow;
     border-right: 1px solid $borderColor;
     
     ul {
