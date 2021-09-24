@@ -1,8 +1,13 @@
+@import '../../../styles/globals/variables.scss';
+
 .header {
     display: flex;
+    position: relative;
     height: 54px;
     padding: .5rem 1rem;
-    border: solid red 1px;
+    background-color: $light;
+    border-bottom: 1px solid #edebe9;
+    z-index: 1;
 }
 
 .logoContainer {

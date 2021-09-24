@@ -9,7 +9,6 @@ const Header = () => {
             <div className={styles.logoContainer}>
                 <Image src="/logo.svg" alt="app logo" width={36} height={36}/>
             </div>
-            <span>I'm a header, nice to meet you</span>
         </header>
     )
 }
